@@ -47,6 +47,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -92,9 +93,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*.team {
+.team {
   background-color: #f4f4fd;
-}*/
+}
 .team-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -104,7 +105,11 @@ a {
   text-align: center;
   color: #2e2f42;
 }
+.team-item {
+  background-color: #ffffff;
+}
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
