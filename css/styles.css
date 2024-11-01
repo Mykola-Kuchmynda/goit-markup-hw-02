@@ -2,7 +2,7 @@
 font-family: 'Roboto', sans-serif;*/
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 ul,
@@ -47,7 +47,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -78,6 +77,7 @@ a {
 }
 .hero-button:hover,
 .hero-button:focus {
+  cursor: pointer;
   background-color: #404bbf;
 }
 .benefits-title {
@@ -85,23 +85,32 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .benefits-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-.team {
+/*.team {
   background-color: #f4f4fd;
+}*/
+.team-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
-.team-title,
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-member {
   font-weight: 500;
@@ -109,25 +118,26 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-member-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 .portfolio-list-title {
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-list-function {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .footer-text {
   font-size: 16px;
